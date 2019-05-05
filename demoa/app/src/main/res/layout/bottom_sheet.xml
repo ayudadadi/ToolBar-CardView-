@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="30dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:src="@drawable/up"/>
+
+    <TextView
+        style="@style/TVTestCenter"
+        android:background="@color/colorPrimary"
+        android:text="Sheet1"
+        android:id="@+id/t1"/>
+
+    <TextView
+        style="@style/TVTestCenter"
+        android:background="#00FF00"
+        android:text="Sheet2"
+        android:id="@+id/t2"/>
+
+    <TextView
+        style="@style/TVTestCenter"
+        android:background="#FF0000"
+        android:text="Sheet3"
+        android:id="@+id/t3"/>
+
+    <TextView
+        style="@style/TVTestCenter"
+        android:background="#0000FF"
+        android:text="Sheet4"
+        android:id="@+id/t4"/>
+
+</LinearLayout>
